@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cuestionario de Sostenibilidad</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
+  <div id="app">
     <h1>Cuestionario de Sostenibilidad</h1>
     <img id="imagen" src="" alt="Imagen de la pregunta" />
     <p id="pregunta"></p>
-    <select id="respuesta">
-      <option value="">Selecciona una opción</option>
-    </select>
+    <select id="respuesta"></select>
     <button id="siguiente">Siguiente</button>
+    <p id="resultado" style="display: none;"></p>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
