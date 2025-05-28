@@ -11,7 +11,7 @@ const preguntas = [
   { clave: "reciclable", texto: "¿El material es reciclable?", tipo: "si_no", imagen: "imagenes/reciclabe.jpg" },
   { clave: "biodegradable", texto: "¿El material es biodegradable?", tipo: "si_no", imagen: "imagenes/biodegradable.jpg" },
   { clave: "material_reciclado", texto: "¿El material proviene de materiales reciclados?", tipo: "si_no", imagen: "imagenes/material-reciclado.jpeg" },
-  { clave: "resistencia_uso", texto: "Resistencia al uso (1=baja, 5=alta)", tipo: "valor", imagen: "imagenes/resistencia_uso.png" },
+  { clave: "resistencia_uso", texto: "Resistencia al uso (1=baja, 5=alta)", tipo: "valor", imagen: "imagenes/resistencia-uso.png" },
   { clave: "resistencia_lavado", texto: "Resistencia al lavado (1=baja, 5=alta)", tipo: "valor", imagen: "imagenes/resistencia-lavado.jpeg" },
   { clave: "vida_util", texto: "Vida útil estimada (1=corta, 5=larga)", tipo: "valor", imagen: "imagenes/vida_util.jpg" },
 ];
