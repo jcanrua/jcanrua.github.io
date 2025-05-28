@@ -76,7 +76,16 @@ function mostrarResultado() {
   }
 
   const resultado = Math.max(0, Math.min(100, Math.round((puntuacion / total) * 100)));
-  pregunta.textContent = `Puntuación de sostenibilidad: ${resultado}/100`;
+
+  // Limpiar contenido anterior
+  pregunta.innerHTML = `
+    <div style="text-align: center; margin-top: 50px;">
+      <h1 style="font-size: 4em; color: #2e7d32;">${resultado}/100</h1>
+      <p style="font-size: 1.5em; color: #555;">¡Gracias por pensar en la sostenibilidad!</p>
+      <p style="font-size: 1.2em; color: #888;">Cada decisión cuenta para un futuro más verde 🌱</p>
+    </div>
+  `;
+
   imagen.remove();
   respuesta.remove();
   boton.remove();
