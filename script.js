@@ -8,7 +8,7 @@ const preguntas = [
   { clave: "uso_quimicos", texto: "¿Se usan químicos agresivos en el proceso?", tipo: "si_no", imagen: "imagenes/quimicos.jpeg" },
   { clave: "material_natural", texto: "¿El material es natural?", tipo: "si_no", imagen: "imagenes/tejidos-naturales.jpeg" },
   { clave: "material_sintetico", texto: "¿El material es sintético?", tipo: "si_no", imagen: "imagenes/tejidos-sinteticos.jpeg" },
-  { clave: "reciclable", texto: "¿El material es reciclable?", tipo: "si_no", imagen: "imagenes/reciclable.jpg" },
+  { clave: "reciclable", texto: "¿El material es reciclable?", tipo: "si_no", imagen: "imagenes/reciclabe.jpg" },
   { clave: "biodegradable", texto: "¿El material es biodegradable?", tipo: "si_no", imagen: "imagenes/biodegradable.jpg" },
   { clave: "material_reciclado", texto: "¿El material proviene de materiales reciclados?", tipo: "si_no", imagen: "imagenes/material-reciclado.jpeg" },
   { clave: "resistencia_uso", texto: "Resistencia al uso (1=baja, 5=alta)", tipo: "valor", imagen: "imagenes/resistencia_uso.png" },
