@@ -25,8 +25,8 @@ const pesos_binarios = {
 
 const pesos_escalados = {
   'transporte': 5, 'empaquetado': 5, 'distancia': 5,
-  'duracion': 10, 'resistencia_uso': 10, 'resistencia_lavado': 10,
-  'vida_util': 10, 'repelencia_agua': 5, 'cuidado': 5,
+   'resistencia_uso': 10, 'resistencia_lavado': 10,
+  'vida_util': 10,
 };
 
 let indice = 0;
