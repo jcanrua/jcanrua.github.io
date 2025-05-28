@@ -4,7 +4,7 @@ const preguntas = [
   { clave: "jornada_no_abusiva", texto: "¿La jornada laboral no es abusiva?", tipo: "si_no", imagen: "imagenes/jornada_no_abusiva.jpeg" },
   { clave: "transporte", texto: "Impacto del transporte (1=muy alto, 5=muy bajo)", tipo: "valor", imagen: "imagenes/transporte.jpeg" },
   { clave: "empaquetado", texto: "Sostenibilidad del empaquetado (1=nada, 5=muy sostenible)", tipo: "valor", imagen: "imagenes/empaquetado.jpeg" },
-  { clave: "distancia", texto: "Cercanía de producción (1=muy lejos, 5=muy cerca)", tipo: "valor", imagen: "imagenes/distancia.jpeg" },
+  { clave: "distancia", texto: "Cercanía de producción (1=muy lejos, 5=muy cerca)", tipo: "valor", imagen: "imagenes/distancia.jpg" },
   { clave: "uso_quimicos", texto: "¿Se usan químicos agresivos en el proceso?", tipo: "si_no", imagen: "imagenes/quimicos.jpeg" },
   { clave: "material_natural", texto: "¿El material es natural?", tipo: "si_no", imagen: "imagenes/tejidos-naturales.jpeg" },
   { clave: "material_sintetico", texto: "¿El material es sintético?", tipo: "si_no", imagen: "imagenes/tejidos-sinteticos.jpeg" },
