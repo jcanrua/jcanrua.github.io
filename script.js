@@ -1,5 +1,4 @@
 const preguntas = [
-  { clave: "empleados_menores", texto: "¿Se han empleado menores en el proceso de producción?", tipo: "si_no", imagen: "imagenes/empleados_menores.jpeg" },
   { clave: "sueldo_razonable", texto: "¿Se paga un sueldo razonable a los empleados?", tipo: "si_no", imagen: "imagenes/sueldo_razonable.jpeg" },
   { clave: "jornada_no_abusiva", texto: "¿La jornada laboral no es abusiva?", tipo: "si_no", imagen: "imagenes/jornada_no_abusiva.jpeg" },
   { clave: "transporte", texto: "Impacto del transporte (1=muy alto, 5=muy bajo)", tipo: "valor", imagen: "imagenes/transporte.jpeg" },
@@ -8,6 +7,7 @@ const preguntas = [
   { clave: "uso_quimicos", texto: "¿Se usan químicos agresivos en el proceso?", tipo: "si_no", imagen: "imagenes/quimicos.jpeg" },
   { clave: "material_natural", texto: "¿El material es natural?", tipo: "si_no", imagen: "imagenes/tejidos-naturales.jpeg" },
   { clave: "material_sintetico", texto: "¿El material es sintético?", tipo: "si_no", imagen: "imagenes/tejidos-sinteticos.jpeg" },
+  { clave: "empleados_menores", texto: "¿Se han empleado menores en el proceso de producción?", tipo: "si_no", imagen: "imagenes/empleados_menores.jpeg" },
   { clave: "reciclable", texto: "¿El material es reciclable?", tipo: "si_no", imagen: "imagenes/reciclabe.jpg" },
   { clave: "biodegradable", texto: "¿El material es biodegradable?", tipo: "si_no", imagen: "imagenes/biodegradable.jpg" },
   { clave: "material_reciclado", texto: "¿El material proviene de materiales reciclados?", tipo: "si_no", imagen: "imagenes/material-reciclado.jpeg" },
